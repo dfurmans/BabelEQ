@@ -1,50 +1,51 @@
-🎧 BabelEQ for EasyEffects
-Custom audio presets for Linux designed to help you hear foreign languages like a native.
+# 🎧 LangTune for EasyEffects
 
-When learning a new language, your ears are often your biggest hurdle. Every language has its own "frequency footprint"—for example, French relies heavily on high-frequency sounds (like je, ch, s) and subtle nasal vowels that don't naturally exist in Spanish. Furthermore, modern Bluetooth speakers often artificially boost bass, muddying these crucial frequencies.
+**Custom audio presets for Linux designed to help you hear foreign languages like a native.**
+
+When learning a new language, your ears are often your biggest hurdle. Every language has its own "frequency footprint"—for example, French relies heavily on high-frequency sounds (like *je*, *ch*, *s*) and subtle nasal vowels that don't naturally exist in Spanish. Furthermore, modern Bluetooth speakers often artificially boost bass, muddying these crucial frequencies.
 
 These EasyEffects presets automatically adjust your system's audio to cut through the hardware mud and highlight the exact frequencies your ears need to decode your target language.
 
-🛠 Prerequisites (Debian / Ubuntu)
-These presets require EasyEffects v7.2.3 or newer.
+## 🛠 Prerequisites (Debian / Ubuntu)
+
+These presets require **EasyEffects v7.2.3** or newer. 
 
 EasyEffects relies on specific audio plugins to render the equalizer correctly. If you install EasyEffects without its backend plugins, the app will open and load the preset, but the audio will not actually change.
 
 Open your terminal and install EasyEffects along with the required Linux Studio Plugins (LSP) and PipeWire backend:
 
-Bash
+```bash
 sudo apt update
 sudo apt install easyeffects pipewire wireplumber lsp-plugins
-🚀 Installation
+```
+
+## 🚀 Installation
+
 You can install the presets automatically using the included script. It will copy the files into the hidden EasyEffects configuration folder on your system.
 
-Open your terminal in the downloaded project folder.
+1. Open your terminal in the downloaded project folder.
+2. Run the following commands:
 
-Run the following commands:
-
-Bash
+```bash
 chmod +x scripts/install_presets.sh
 ./scripts/install_presets.sh
-🎧 How to Use
-Open the EasyEffects application on your Linux desktop.
+```
 
-At the top of the window, ensure you are on the Output tab.
+## 🎧 How to Use
 
-Click the Presets button in the top left corner.
+1. Open the **EasyEffects** application on your Linux desktop.
+2. At the top of the window, ensure you are on the **Output** tab.
+3. Click the **Presets** button in the top left corner.
+4. Select your language pairing from the list (e.g., `fr-es_vieta-upper3`) and click **Load**.
+5. *Tip: Make sure the EasyEffects global switch (top left corner) is toggled to ON so it actively processes your audio.*
 
-Select your language pairing from the list (e.g., fr-es_vieta-upper3) and click Load.
+## 📂 Which file do I choose?
 
-Tip: Make sure the EasyEffects global switch (top left corner) is toggled to ON so it actively processes your audio.
+Presets are named so you can instantly find the right one for your native language, target language, and speaker hardware. 
 
-📂 Which file do I choose?
-Presets are named so you can instantly find the right one for your native language, target language, and speaker hardware.
+**Format:** `[target]-[native]_[hardware].json`
 
-Format: [target]-[native]_[hardware].json
-
-Example: fr-es_vieta-upper3.json
-
-fr = Target Language (French)
-
-es = Native Language (Spanish)
-
-vieta-upper3 = Tuned specifically for the Vieta Pro Upper 3 Bluetooth speaker's hardware profile.
+**Example:** `fr-es_vieta-upper3.json`
+* **fr** = Target Language (French)
+* **es** = Native Language (Spanish)
+* **vieta-upper3** = Tuned specifically for the Vieta Pro Upper 3 Bluetooth speaker's hardware profile.
