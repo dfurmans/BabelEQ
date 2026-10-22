@@ -1,4 +1,4 @@
-# 🎧 LangTune for EasyEffects
+# 🎧 BabelEQ for EasyEffects
 
 **Custom audio presets for Linux designed to help you hear foreign languages like a native.**
 
