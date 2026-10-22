@@ -1,6 +1,7 @@
 # 🎧 BabelEQ for [EasyEffects](https://easyeffects.org/)
 
 [EasyEffects](https://easyeffects.org/)
+![Vieta Pro Optimized](https://img.shields.io/badge/Vieta%20Pro-EQ%20Optimized-0070f3?style=for-the-badge&logo=headphones&logoColor=white)
 
 **Custom audio presets for Linux designed to help you hear foreign languages like a native.**
 
@@ -53,3 +54,11 @@ Presets are named so you can instantly find the right one for your native langua
 * **fr** = Target Language (French)
 * **es** = Native Language (Spanish)
 * **vieta-upper3** = Tuned specifically for the Vieta Pro Upper 3 Bluetooth speaker's hardware profile.
+* **laptop** = Tuned for Piezoelectric speakers sucha laptops, small sound systems etc 
+
+
+## License
+
+Apache License 2.0.
+
+2026 SolYNaranjaS
