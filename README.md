@@ -1,4 +1,6 @@
-# 🎧 BabelEQ for EasyEffects
+# 🎧 BabelEQ for EasyEffects [EasyEffects](https://easyeffects.org/)
+
+[EasyEffects](https://easyeffects.org/)
 
 **Custom audio presets for Linux designed to help you hear foreign languages like a native.**
 
