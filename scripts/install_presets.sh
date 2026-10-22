@@ -26,7 +26,7 @@ fi
 
 echo "Installing presets to $TARGET_DIR..."
 
-# Copy all JSON files to the EasyEffects output folder
-cp presets/*.json "$TARGET_DIR/"
+# Recursively find all .json files in the presets directory and copy them to the target directory
+find presets -type f -name "*.json" -exec cp {} "$TARGET_DIR/" \;
 
-echo "Success! Presets installed. Open the EasyEffects app to apply them."
+echo "Success! Presets installed."
