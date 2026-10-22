@@ -10,6 +10,8 @@ These EasyEffects presets automatically adjust your system's audio to cut throug
 
 ## 🛠 Prerequisites (Debian / Ubuntu)
 
+[![EasyEffects](https://img.shields.io/badge/Uses-EasyEffects-blue?style=flat-square)](https://easyeffects.org/)
+
 These presets require **EasyEffects v7.2.3** or newer. 
 
 EasyEffects relies on specific audio plugins to render the equalizer correctly. If you install EasyEffects without its backend plugins, the app will open and load the preset, but the audio will not actually change.
