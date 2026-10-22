@@ -1,4 +1,4 @@
-# 🎧 BabelEQ for EasyEffects [EasyEffects](https://easyeffects.org/)
+# 🎧 BabelEQ for [EasyEffects](https://easyeffects.org/)
 
 [EasyEffects](https://easyeffects.org/)
 
