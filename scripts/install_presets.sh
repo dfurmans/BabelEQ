@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 
 # Navigate to the project root (one folder up from the script's location)
