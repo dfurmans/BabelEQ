@@ -1,7 +1,10 @@
 # 🎧 BabelEQ for [EasyEffects](https://easyeffects.org/)
 
-[EasyEffects](https://easyeffects.org/)
+
 ![Vieta Pro Optimized](https://img.shields.io/badge/Vieta%20Pro-EQ%20Optimized-0070f3?style=for-the-badge&logo=headphones&logoColor=white)
+
+[![EasyEffects](https://img.shields.io/badge/Uses-EasyEffects-blue?style=flat-square)](https://easyeffects.org/)
+
 
 **Custom audio presets for Linux designed to help you hear foreign languages like a native.**
 
