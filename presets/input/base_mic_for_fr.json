@@ -1,0 +1,50 @@
+{
+  "input": {
+    "blocklist": [],
+    "plugins_order": [
+      "filter#0",
+      "equalizer#0",
+      "compressor#0",
+      "limiter#0"
+    ],
+    "filter#0": {
+      "bypass": false,
+      "frequency": 80.0,
+      "type": "High-pass"
+    },
+    "equalizer#0": {
+      "bypass": false,
+      "num-bands": 4,
+      "left": {
+        "band0": { "frequency": 200.0, "gain": 1.5 },
+        "band1": { "frequency": 400.0, "gain": -2.0 },
+        "band2": { "frequency": 1000.0, "gain": 1.0 },
+        "band3": { "frequency": 3000.0, "gain": 2.0 }
+      },
+      "right": {
+        "band0": { "frequency": 200.0, "gain": 1.5 },
+        "band1": { "frequency": 400.0, "gain": -2.0 },
+        "band2": { "frequency": 1000.0, "gain": 1.0 },
+        "band3": { "frequency": 3000.0, "gain": 2.0 }
+      }
+    },
+    "compressor#0": {
+      "attack": 15.0,
+      "bypass": false,
+      "makeup": 2.0,
+      "ratio": 3.0,
+      "sidechain": {
+        "lookahead": 0.0,
+        "mode": "RMS",
+        "preamp": 0.0,
+        "reactivity": 10.0,
+        "source": "Middle",
+        "type": "Feed-forward"
+      }
+    },
+    "limiter#0": {
+      "bypass": false,
+      "limit": -1.5
+    }
+  }
+}
